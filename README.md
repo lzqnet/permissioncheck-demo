@@ -1,6 +1,8 @@
 # permissioncheck-demo
 android 6.0权限检查 采用callback的方式代替原生onRequestPermissionsResult的方式
+
 使用简单:
+
  mPermissionManager=new PermissionManager();
         mPermissionManager.checkRequestedPermissions(this,
                 new String[]{Manifest.permission.CAMERA}, new IPermissionResultHandler() {

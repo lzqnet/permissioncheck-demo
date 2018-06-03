@@ -3,7 +3,7 @@ android 6.0权限检查 采用callback的方式代替原生onRequestPermissionsR
 
 使用简单:
 
- mPermissionManager=new PermissionManager();
+ ```mPermissionManager=new PermissionManager();
         mPermissionManager.checkRequestedPermissions(this,
                 new String[]{Manifest.permission.CAMERA}, new IPermissionResultHandler() {
                     @Override
